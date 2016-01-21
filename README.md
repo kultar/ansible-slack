@@ -6,3 +6,9 @@ This is simply something I wanted to see if I could do. If there's serious consi
 Test:
 
 curl -H "Content-Type: application/json" -d '{"Target":"localhost","Module":"shell","Command":"df -h"}' http://localhost:8080/execute
+
+
+To Do:
+
+* json output for slack returned instead of current unformatted string
+* token based auth
